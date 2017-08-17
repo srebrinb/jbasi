@@ -59,33 +59,8 @@ public class JdoUserTest {
         System.out.println("result = " + result);
     }
 
-    /**
-     * Test of insertUser method, of class JdoUser.
-     */
-    @Test
-    public void testInsertUser_User() {
-        System.out.println("insertUser");
-        User user = null;
-        User expResult = null;
-        User result = JdoUser.insertUser(user);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
 
-    /**
-     * Test of insertUser method, of class JdoUser.
-     */
-    @Test
-    public void testInsertUser_String() {
-        System.out.println("insertUser");
-        String strUserJson = "";
-        User expResult = null;
-        User result = JdoUser.insertUser(strUserJson);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+
 
     /**
      * Test of getUsers method, of class JdoUser.
@@ -125,19 +100,7 @@ public class JdoUserTest {
         System.out.println("result = " + result);
     }
 
-    /**
-     * Test of convUser method, of class JdoUser.
-     */
-    @Test
-    public void testConvUser() {
-        System.out.println("convUser");
-        String strUserJson = "";
-        User expResult = null;
-        User result = JdoUser.convUser(strUserJson);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
 
     /**
      * Test of getUsersIn method, of class JdoUser.
@@ -152,17 +115,5 @@ public class JdoUserTest {
         System.out.println("result = " + result);
     }
 
-    /**
-     * Test of getUserIn method, of class JdoUser.
-     */
-    @Test
-    public void testGetUserIn() {
-        System.out.println("getUserIn");
-        String key = "chennalId";
-        String val = "1234";
-        User expResult = null;
-        User result = JdoUser.getUserIn(key, val);
-        System.out.println("result = " + result);
-    }
     
 }
