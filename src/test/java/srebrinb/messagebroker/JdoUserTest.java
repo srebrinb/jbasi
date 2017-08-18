@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates     
  * and open the template in the editor.
+ * Някаква промяна
  */
 package srebrinb.messagebroker;
 
@@ -26,6 +27,7 @@ public class JdoUserTest {
         user.setUserName("testUserName"+N);
         user.setGroupName("testGroupName"+N);
         user.setCustId(12);
+        
         return user;
     }
    @Test
